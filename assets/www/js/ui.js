@@ -342,12 +342,15 @@
             sendRequest('iRoStop');
         });
 		$('#Light1').click(function () {
+			$(this).removeClass('torch-on');
             sendRequest('Light1');
         });
 		$('#Light2').click(function () {
+			$(this).removeClass('torch-on');
             sendRequest('Light2');
         });
 		$('#Light3').click(function () {
+			$(this).removeClass('torch-on');
             sendRequest('Light3');
         });
 
